@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <h1>Shorten your url here</h1>
+
+        <div class="card">
+            <form action="/shorten" id="url-form">
+                <label for="url" style="display:block">URL</label>
+                <input type="text" id="url" name="url" required class="input-field">
+                <button id="shortenBtn">Shorten</button>
+            </form>
+
+            <p id="output"></p>
+        </div>
+        <script src="./src.js"></script>
+    </body>
+</html>
