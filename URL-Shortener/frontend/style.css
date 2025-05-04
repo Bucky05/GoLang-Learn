@@ -1,33 +1,130 @@
-.card {
-    border: 2px solid #008ECF;
-    border-radius: 30px;
-    height: 200px;
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #f2f7fb;
     display: flex;
     flex-direction: column;
-    width: 300px;
-    justify-content: center;
     align-items: center;
-    padding: 10px;
-    top: 30%;
-    left: 40%;
-    position:absolute;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #008ECF;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 30px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: left;
 }
 
 .input-field {
     width: 100%;
-    height: 40px;
-    border-radius: 10px;
-    border: 2px solid;
-    padding-left: 10px;
-    margin-bottom: 10px;    
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
 }
 
 button {
     width: 100%;
-    height: 40px;
-    border-radius: 10px;
+    height: 45px;
+    border-radius: 8px;
     background-color: #008ECF;
     color: white;
+    font-size: 16px;
     border: none;
     cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #0072a8;
+}
+
+#output {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #008ECF;
+}
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #f2f7fb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #008ECF;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 30px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.input-field {
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    background-color: #008ECF;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #0072a8;
+}
+
+#output {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #008ECF;
 }
